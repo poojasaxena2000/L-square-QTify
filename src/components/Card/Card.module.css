@@ -1,0 +1,26 @@
+.card {
+  width: 159px;
+  height: 205px;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+
+.cardimg {
+  width: 159px;
+  height: 170px;
+  padding: 0;
+}
+
+.chips {
+  /* width: 71px; */
+  height: 23px;
+  gap: 1px;
+  border-radius: 10px;
+  padding-inline: 8px;
+  padding-block: 4px;
+  white-space: no-wrap;
+  margin-left: 4px;
+  display: block;
+}
+

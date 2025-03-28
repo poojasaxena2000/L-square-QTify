@@ -1,0 +1,34 @@
+.hero {
+  background-color: var(--color-black);
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.hero {
+  width: 1440;
+  height: 270;
+  top: 74px;
+  background: rgba(18, 18, 18, 1);
+}
+
+.heroh1 {
+  width: 556;
+  height: 100;
+  top: 171px;
+  left: 328px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.herocomp {
+  width: 799;
+  height: 212;
+  top: 103px;
+  left: 328px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

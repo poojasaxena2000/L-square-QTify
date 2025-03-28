@@ -1,0 +1,40 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 36rem;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  height: 3rem;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  
+  background-color: #ffffff;
+}
+
+.input {
+  width: 100%;
+  border-start-start-radius: 0.5rem;
+  border-end-start-radius: 0.5rem;
+  border-color: rgb(0, 0, 0);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  outline-width: 0px;
+}
+
+.input:focus {
+  outline-width: 0px;
+}
+
+.button {
+  display: grid;
+  height: 100%;
+  width: 4rem;
+  place-items: center;
+  border-left-width: 1px;
+  border-radius: 2%;
+}
